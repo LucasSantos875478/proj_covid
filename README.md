@@ -6,6 +6,7 @@
 - <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
 - <a href="#bibliotecas-utilizadas">Bibliotecas Utilizadas</a>
 - <a href="#explicação-do-andamento-do-projeto">Explicação do andamento Projeto</a>
+- <a href="#olá-eu-sou-o-lucas-👋">Sobre Mim</a>
 
 ## Contextualização do Projeto COVID-19
 Este projeto visa analisar o histórico médico de indivíduos para determinar se estão em um grupo de risco para o COVID-19. Embora a pandemia já tenha passado, optei por prosseguir com este projeto, pois acredito que uma solução baseada em inteligência artificial poderia oferecer benefícios significativos tanto para o público em geral quanto para os profissionais da saúde. Ao fornecer essas informações, poderíamos direcionar recursos e atenção de forma mais eficaz, visando o bem-estar e a prevenção de doenças.
@@ -79,3 +80,11 @@ Na fase inicial do projeto precisei entender a base de dados, para analisar o qu
 - Próximos passos:
     - Arrumar os tipos de dados do DataFrame
     - Fazer uma analise explanatória
+
+# Olá, eu sou o Lucas! 👋
+Aos 19 anos, trilho meu caminho na Ciência de Dados com paixão pela programação. Com habilidades avançadas em Python e conhecimento intermediário em SQL, enfrento desafios com entusiasmo, especialmente na criação de inteligência artificial. Embora meu inglês seja inicial, estou dedicado aos estudos para aprimorá-lo. Estou aqui para aprender, crescer e deixar minha marca na interseção entre dados e inovação.
+
+## Links para me contatar 🔗 
+[![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasSantos875478)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-santos-454584285/)
+[![instagram](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=)](https://www.instagram.com/lucassantos875478/)
