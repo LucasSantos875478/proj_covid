@@ -111,7 +111,7 @@ Aqui eu gerei um gráfico para entender como os valores estavam sendo distríbui
     - Estudar sobre como posso montar essa IA
     
 
-# Olá, eu sou o Lucas! 👋
+## Olá, eu sou o Lucas! 👋
 Aos 19 anos, trilho meu caminho na Ciência de Dados com paixão pela programação. Com habilidades avançadas em Python e conhecimento intermediário em SQL, enfrento desafios com entusiasmo, especialmente na criação de inteligência artificial. Embora meu inglês seja inicial, estou dedicado aos estudos para aprimorá-lo. Estou aqui para aprender, crescer e deixar minha marca na interseção entre dados e inovação.
 
 ## Links para me contatar 🔗 
