@@ -59,6 +59,8 @@ Caso apareça os valores 97, 98 ou 99 são dados que estão faltando na base da 
 - date died: Se o paciente morreu, indica a data da morte; caso contrário, 9999-99-99.
 
 ## Tecnologias Utilizadas
+[![python](https://img.shields.io/badge/python-1DA1F2?style=for-the-badge&logo=python&logoColor=&color=2c2c2c)](https://www.python.org/)
+
 
 Escolhi Python como linguagem principal para meu código em Ciência de Dados devido à sua versatilidade e eficácia no ecossistema dessa área. A vasta gama de bibliotecas especializadas, como NumPy, Pandas e Scikit-Learn, oferece ferramentas poderosas para manipulação de dados, análise estatística e implementação de modelos preditivos, simplificando significativamente o desenvolvimento e a execução de tarefas complexas.
 
@@ -73,13 +75,41 @@ Instale as bibliotecas utilizadas no projeto, como o projeto é extenso existem 
 ```bash
   pip install numpy
 ```
+```bash
+  pip install matplotlib
+```
+```bash
+  pip install seaborn
+```
+```bash
+  pip install cycler
+```
 
 # Explicação do andamento do  projeto
 Na fase inicial do projeto precisei entender a base de dados, para analisar o que cada coluna me traria de informação e conseguir enteder como seguir com o projeto, então depois de importar a base de dados coloquei os primeiros 1000 valores em um documento .csv para analisar as informações presentes, depois de analisar esses dados procurei por valores 'vazios', nesta base de dados dos valores vazios são valores de 97 a 99, então percebi que As colunas INTUBED, PREGNANT e ICU possuem muitos valores faltando (97), por isso preencher esses valores com algum padrão pode prejudicar nosso modelo, então decidi excluir essas colunas, para as outras que possuiam poucos valores faltando eu apenas excluí as linhas, já que nossa base de dados tem 1048575 linhas então perder poucos valores não interferiria no nosso modelo futuro.
 
+Depois de limpar nossa base de dados eu tive que pesquisar mais para entender os dados que estavam presentes na nossa base de dados, tanto para saber como eu deveria interpretá-los e como eu deveria seguir com a nossa base, então tive que pesquisar tanto sobre o covid, como algumas coisas sobre o sistema de saúde no méxico, já que a nossa base de dados vem de lá.
+
+Após isso tive que fazer uma análise explanatória dos dados, criando gráficos para o melhor entendimento dos dados.
+
+
+![Mapa de Calor](imagens/mapa_calor.png)
+
+Esse gráfico faz uma correlação de cada coluna, ou seja, calcula a correlação entre todas as combinações possíveis de pares de colunas em um conjunto de dados. Ele fornece uma medida estatística que indica a força e a direção da relação entre as variáveis, sendo útil para entender se elas aumentam ou diminuem juntas (correlação positiva), se uma aumenta enquanto a outra diminui (correlação negativa) ou se não há uma relação clara entre elas.
+
+Depois precisei fazer a análise explanatória dos nossos dados, analisando os outliers e gerando gráficos para ver como os valores estão distríbuidos no DataFrame.
+![BoxPlot](imagens/boxplot_idade.png)
+
+Nesse gráfico vemos como estão distríbuidos os nossos dados nos quartos quartis (Os quartis são medidas estatísticas que dividem um conjunto de dados ordenados em quatro partes iguais. ) e os outliers.
+
+![Grafico de Barra](imagens/barra_usmer.png)
+
+Aqui eu gerei um gráfico para entender como os valores estavam sendo distríbuidos nas diversas colunas, então precisei fazer isso para cada coluna e deixei alguns comentários para explicar os dados análisados em cada coluna.
+
+
 - Próximos passos:
-    - Arrumar os tipos de dados do DataFrame
-    - Fazer uma analise explanatória
+    - Estudar sobre como posso montar essa IA
+    
 
 # Olá, eu sou o Lucas! 👋
 Aos 19 anos, trilho meu caminho na Ciência de Dados com paixão pela programação. Com habilidades avançadas em Python e conhecimento intermediário em SQL, enfrento desafios com entusiasmo, especialmente na criação de inteligência artificial. Embora meu inglês seja inicial, estou dedicado aos estudos para aprimorá-lo. Estou aqui para aprender, crescer e deixar minha marca na interseção entre dados e inovação.
@@ -88,3 +118,5 @@ Aos 19 anos, trilho meu caminho na Ciência de Dados com paixão pela programaç
 [![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasSantos875478)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-santos-454584285/)
 [![instagram](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=)](https://www.instagram.com/lucassantos875478/)
+
+
