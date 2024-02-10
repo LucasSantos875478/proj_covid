@@ -6,7 +6,7 @@
 - <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
 - <a href="#bibliotecas-utilizadas">Bibliotecas Utilizadas</a>
 - <a href="#explicação-do-andamento-do-projeto">Explicação do andamento Projeto</a>
-- <a href="#olá-eu-sou-o-lucas!-👋">Sobre Mim</a>
+- <a href="#olá-eu-sou-o-lucas">Sobre Mim</a>
 
 ## Contextualização do Projeto COVID-19
 Este projeto visa analisar o histórico médico de indivíduos para determinar se estão em um grupo de risco para o COVID-19. Embora a pandemia já tenha passado, optei por prosseguir com este projeto, pois acredito que uma solução baseada em inteligência artificial poderia oferecer benefícios significativos tanto para o público em geral quanto para os profissionais da saúde. Ao fornecer essas informações, poderíamos direcionar recursos e atenção de forma mais eficaz, visando o bem-estar e a prevenção de doenças.
