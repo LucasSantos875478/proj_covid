@@ -85,7 +85,7 @@ Instale as bibliotecas utilizadas no projeto, como o projeto é extenso existem 
   pip install cycler
 ```
 
-# Explicação do andamento do  projeto
+# Explicação do andamento do projeto
 Na fase inicial do projeto precisei entender a base de dados, para analisar o que cada coluna me traria de informação e conseguir enteder como seguir com o projeto, então depois de importar a base de dados coloquei os primeiros 1000 valores em um documento .csv para analisar as informações presentes, depois de analisar esses dados procurei por valores 'vazios', nesta base de dados dos valores vazios são valores de 97 a 99, então percebi que As colunas INTUBED, PREGNANT e ICU possuem muitos valores faltando (97), por isso preencher esses valores com algum padrão pode prejudicar nosso modelo, então decidi excluir essas colunas, para as outras que possuiam poucos valores faltando eu apenas excluí as linhas, já que nossa base de dados tem 1048575 linhas então perder poucos valores não interferiria no nosso modelo futuro.
 
 Depois de limpar nossa base de dados eu tive que pesquisar mais para entender os dados que estavam presentes na nossa base de dados, tanto para saber como eu deveria interpretá-los e como eu deveria seguir com a nossa base, então tive que pesquisar tanto sobre o covid, como algumas coisas sobre o sistema de saúde no méxico, já que a nossa base de dados vem de lá.
