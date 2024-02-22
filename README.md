@@ -86,7 +86,7 @@ Instale as bibliotecas utilizadas no projeto, como o projeto é extenso existem 
 ```
 
 # Explicação do andamento do projeto
-Na fase inicial do projeto precisei entender a base de dados, para analisar o que cada coluna me traria de informação e conseguir enteder como seguir com o projeto, então depois de importar a base de dados excluí todos os valores duplicados que iriam prejudicar o nosso modelo e coloquei os primeiros 1000 valores em um documento .csv para analisar as informações presentes, depois de analisar esses dados procurei por valores 'vazios', nesta base de dados dos valores vazios são valores de 97 a 99, então percebi que As colunas INTUBED, PREGNANT e ICU possuem muitos valores faltando (97), por isso preencher esses valores com algum padrão pode prejudicar nosso modelo, então decidi excluir essas colunas, para as outras que possuiam poucos valores faltando eu apenas excluí as linhas, já que nossa base de dados tem 236526 linhas então perder poucos valores não interferiria no nosso modelo futuro.
+Na fase inicial do projeto precisei entender a base de dados, para analisar o que cada coluna me traria de informação e conseguir enteder como seguir com o projeto, então depois de importar a base de dados e coloquei os primeiros 1000 valores em um documento .csv para analisar as informações presentes, depois de analisar esses dados procurei por valores 'vazios', nesta base de dados dos valores vazios são valores de 97 a 99, então percebi que As colunas INTUBED, PREGNANT e ICU possuem muitos valores faltando (97), por isso preencher esses valores com algum padrão pode prejudicar nosso modelo, então decidi excluir essas colunas, para as outras que possuiam poucos valores faltando eu apenas excluí as linhas, já que nossa base de dados tem 1025152 linhas então perder poucos valores não interferiria no nosso modelo futuro.
 
 Depois de limpar nossa base de dados eu tive que pesquisar mais para entender os dados que estavam presentes na nossa base de dados, tanto para saber como eu deveria interpretá-los e como eu deveria seguir com a nossa base, então tive que pesquisar tanto sobre o covid, como algumas coisas sobre o sistema de saúde no méxico, já que a nossa base de dados vem de lá.
 
@@ -102,7 +102,7 @@ Depois precisei fazer a análise explanatória dos nossos dados, analisando os o
 
 Nesse gráfico vemos como estão distríbuidos os nossos dados nos quartos quartis (Os quartis são medidas estatísticas que dividem um conjunto de dados ordenados em quatro partes iguais. ) e os outliers.
 
-![Grafico de Barra](imagens/barra_usmer.png)
+![Grafico de Barra](imagens/barra_sex.png)
 
 Aqui eu gerei um gráfico para entender como os valores estavam sendo distríbuidos nas diversas colunas, então precisei fazer isso para cada coluna e deixei alguns comentários para explicar os dados análisados em cada coluna.
 
